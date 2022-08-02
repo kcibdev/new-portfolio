@@ -9,7 +9,7 @@ export const transitionStyle = "transition ease-in-out delay-150 duration-300";
 
 /* Navbar */
 export const navBar =
-  "flex justify-between body-bg z-20 fixed w-auto px-5 items-center body-bg rounded-lg mx-4 my-2 h-[60px]";
+  "flex justify-between body-bg z-20 fixed px-5 items-center body-bg rounded-lg mx-4 my-2 h-[60px]";
 
 export const navList = `${transitionStyle} absolute md:relative body-bg z-[-10] w-full h-max shadow-md shadow-[#000] md:shadow-none left-0 md:left-auto`;
 

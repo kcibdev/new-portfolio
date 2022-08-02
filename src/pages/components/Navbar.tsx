@@ -9,9 +9,10 @@ const Navbar = (props: Props) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <nav
-      className={`${navBar} ${
-        isOpen ? "shadow-none" : "shadow-md shadow-[#000] md:shadow-none"
-      } `}
+      className={`${navBar} shadow-md shadow-[#000] md:shadow-none `}
+      style={{
+        width: "-webkit-fill-available",
+      }}
     >
       <div className="nav__logo">
         <a
@@ -43,6 +44,15 @@ const Navbar = (props: Props) => {
               onClick={() => setIsOpen(false)}
             >
               About
+            </a>
+          </li>
+          <li className="nav__item w-full text-center">
+            <a
+              href="#experience"
+              className={navItem}
+              onClick={() => setIsOpen(false)}
+            >
+              Experience
             </a>
           </li>
           <li className="nav__item w-full text-center">

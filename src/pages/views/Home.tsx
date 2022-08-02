@@ -39,18 +39,9 @@ const Home = (props: Props) => {
             </a>
           </div>
           <div className="home__connect-btn mt-3">
-            <a href="/" className="flex items-center">
+            <a href="#contact" className="flex items-center">
               Let's talk{" "}
               <BsArrowRightCircle className="home__icon text-xl ml-4" />
-            </a>
-          </div>
-          <div className="home__learn-more fixed bottom-[10px] left-[50%] -translate-x-[50%]">
-            <a
-              href="#about"
-              className="flex flex-col items-center justify-center text-xs"
-            >
-              <span>Learn more about me</span>
-              <MdKeyboardArrowDown className="home__icon text-base w-full" />
             </a>
           </div>
         </div>
