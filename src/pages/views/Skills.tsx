@@ -23,7 +23,7 @@ const Skills = (props: Props) => {
   return (
     <div className={`${containerStyle} text-center`} id="skills">
       <h1 className="text-3xl font-bold my-3">My Skills</h1>
-      <div className="skills">
+      <div className="skills rounded-lg container-bg overflow-hidden mt-14">
         {mySkills.map((skill: skillProps) => (
           <SkillsCard key={skill.id} skillCard={skill} />
         ))}

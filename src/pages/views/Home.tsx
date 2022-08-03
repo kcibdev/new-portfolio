@@ -1,7 +1,6 @@
 import React from "react";
 import { FiLinkedin, FiTwitter, FiGithub } from "react-icons/fi";
 import { BsArrowRightCircle } from "react-icons/bs";
-import { MdKeyboardArrowDown } from "react-icons/md";
 
 import { containerStyle, homeImage } from "../styles";
 import ProfileImage from "../../assets/profile.png";

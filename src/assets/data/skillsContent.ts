@@ -19,16 +19,16 @@ export const mySkills = [
         lowerCase: "css",
       },
       {
+        name: "Tailwind CSS",
+        lowerCase: "tailwind",
+      },
+      {
         name: "JavaScript & JQuery",
         lowerCase: "js",
       },
       {
         name: "React.js, TypeScript, Next.js",
         lowerCase: "react",
-      },
-      {
-        name: "Tailwind CSS",
-        lowerCase: "tailwind",
       },
     ],
   },
@@ -43,14 +43,14 @@ export const mySkills = [
         lowerCase: "php",
       },
       {
+        name: "MySql",
+        lowerCase: "mysql",
+      },
+      {
         name: "Node.js (Express.js, Sequelize)",
         lowerCase: "node",
       },
 
-      {
-        name: "MySql",
-        lowerCase: "mysql",
-      },
       {
         name: "MongoDB",
         lowerCase: "mongodb",
@@ -84,20 +84,21 @@ export const mySkills = [
     icon: BsVectorPen,
     languages: [
       {
+        name: "Git & Github",
+        lowerCase: "git",
+      },
+      {
         name: "Figma",
         lowerCase: "figma",
       },
-      {
-        name: "illustrator",
-        lowerCase: "illustrator",
-      },
+
       {
         name: "Heroku & Netlify",
         lowerCase: "heroku",
       },
       {
-        name: "Git & Github",
-        lowerCase: "git",
+        name: "illustrator",
+        lowerCase: "illustrator",
       },
     ],
   },

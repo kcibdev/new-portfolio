@@ -24,7 +24,7 @@ const Navbar = (props: Props) => {
       </div>
       <div
         className={` ${navList} ${
-          isOpen ? "translate-y-[10.5rem]" : "-translate-y-[11rem]"
+          isOpen ? "translate-y-[11rem]" : "-translate-y-[15rem]"
         }  `}
       >
         <ul className="flex flex-col md:flex-row justify-center items-center">

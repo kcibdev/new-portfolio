@@ -55,3 +55,7 @@ body {
 .container-color {
   color: var(--container-color);
 }
+
+.exp__job-task > li {
+  list-style-type: circle;
+}

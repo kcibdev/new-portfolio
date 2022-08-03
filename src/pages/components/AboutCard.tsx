@@ -24,7 +24,7 @@ const AboutCard = (props: Props) => {
 
   return (
     <div
-      className={` ${transitionStyle} services__content container-bg rounded p-4 relative text-left min-w-[200px] max-w-[250px] mt-3`}
+      className={` ${transitionStyle} services__content container-bg rounded p-4 relative text-left min-w-full md:min-w-[200px] max-w-[250px] mt-3`}
     >
       <div>
         <service.icon className="services__icon text-3xl block mb-4" />
