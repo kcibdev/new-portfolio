@@ -3,7 +3,7 @@ import { FiLinkedin, FiTwitter, FiGithub } from "react-icons/fi";
 import { BsArrowRightCircle } from "react-icons/bs";
 
 import { containerStyle, homeImage } from "../styles";
-import ProfileImage from "../../assets/profile.png";
+import ProfileImage from "../../assets/images/profile.png";
 
 type Props = {};
 

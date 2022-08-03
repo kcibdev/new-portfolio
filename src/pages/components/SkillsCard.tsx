@@ -20,7 +20,10 @@ const SkillsCard = (props: Props) => {
       <div className="skill__container mt-4">
         <ul className="flex flex-wrap">
           {skill.languages.map((language) => (
-            <li className="skill__cover px-3 py-3 w-max m-3 rounded-lg text-lg font-semibold border-[0.5px]">
+            <li
+              className="skill__cover px-3 py-3 w-max m-3 rounded-lg text-lg font-semibold border-[0.5px]"
+              key={language.lowerCase}
+            >
               {language.name}
             </li>
           ))}
