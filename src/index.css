@@ -17,6 +17,7 @@
   margin: 0;
   box-sizing: border-box;
   color: var(--text-dom-color);
+  /* border: 1px solid limegreen; */
 }
 
 html {

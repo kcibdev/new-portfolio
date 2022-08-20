@@ -9,7 +9,10 @@ type Props = {};
 
 const Home = (props: Props) => {
   return (
-    <div className={`home ${containerStyle}  h-screen`} id="home">
+    <div
+      className={`home ${containerStyle}  h-screen md:flex justify-center items-center`}
+      id="home"
+    >
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 justify-items-center">
         <div className={`home__image ${homeImage}`}>
           <img
@@ -22,7 +25,7 @@ const Home = (props: Props) => {
           <h1 className="home__title text-3xl font-bold w-[300px] md:w-auto mb-2">
             Full Stack Web & Mobile Developer
           </h1>
-          <p className="home__description text-[15px] w-[350px] md:w-auto my-2 font-semibold">
+          <p className="home__description text-[15px] max-w-[350px] md:w-auto my-2 font-semibold">
             I specialize in building softwares for clients. I love learning new
             technologies and always looking to improve my skills.
           </p>

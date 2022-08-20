@@ -18,7 +18,7 @@ const About = (props: Props) => {
           that i find interesting and can use to build cool stuff for you
         </p>
       </div>
-      <div className="about_cards flex flex-wrap items-center justify-around mt-10 px-6">
+      <div className="about_cards flex flex-wrap items-center justify-around gap-5 mt-10 px-6">
         {services.map((service) => (
           <AboutCard key={service.id} aboutService={service} />
         ))}

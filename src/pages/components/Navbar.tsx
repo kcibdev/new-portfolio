@@ -9,7 +9,7 @@ const Navbar = (props: Props) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <nav
-      className={`${navBar} shadow-md shadow-[#000] md:shadow-none `}
+      className={`${navBar} shadow-md shadow-[#000] `}
       style={{
         width: "-webkit-fill-available",
       }}
@@ -24,10 +24,10 @@ const Navbar = (props: Props) => {
       </div>
       <div
         className={` ${navList} ${
-          isOpen ? "translate-y-[11rem]" : "-translate-y-[15rem]"
+          isOpen ? "translate-y-[13rem]" : "-translate-y-[15rem]"
         }  `}
       >
-        <ul className="flex flex-col md:flex-row justify-center items-center">
+        <ul className="flex flex-col ml:flex-row justify-center items-center">
           <li className="nav__item w-full text-center">
             <a
               href="#home"
@@ -84,7 +84,7 @@ const Navbar = (props: Props) => {
           </li>
         </ul>
       </div>
-      <div className="nav__icon cursor-pointer">
+      <div className="nav__icon cursor-pointer ml:hidden">
         {!isOpen && (
           <HiMenuAlt3 onClick={() => setIsOpen(true)} className="text-xl" />
         )}

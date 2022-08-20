@@ -28,7 +28,7 @@ export const experiences = [
     title: "Full Stack Developer",
     company: "Ohms",
     location: "Port Harcourt, Nigeria",
-    date: "Nov 2020 – May 202",
+    date: "Nov 2020 – May 2021",
     tasks: [
       "Created the wireframe and designed the app using flutter framework ",
       "Developed the backend using php mysql and connected to the frontend using restful api",
@@ -39,7 +39,7 @@ export const experiences = [
     title: "Full Stack Developer",
     company: "Albaama",
     location: "Port Harcourt, Nigeria",
-    date: "Oct 2019 – Nov 202",
+    date: "Oct 2019 – Nov 2020",
     tasks: [
       "Used HTML CSS to create an e-commerce website with stunning UI and great User experience",
       "Completely created am admin section with full functional using php mysql",

@@ -15,12 +15,12 @@ type Props = {
 const ExperienceCard = (props: Props) => {
   const { experience: exp } = props;
   return (
-    <div className="exp__card-content flex flex-col md:flex-row px-3 py-5 border-b-[0.5px] border-dashed">
-      <div className="exp__content-left order-last md:order-none text-left mt-5 md:mt-0">
-        <p className="exp__date text-base flex items-center">
+    <div className="exp__card-content flex flex-col md:flex-row px-3 py-5 border-b-[0.5px] border-dashed w-full max-w-4xl">
+      <div className="exp__content-left order-last md:order-none text-left mt-5 md:mt-0 md:mr-5 ml:w-[200px]">
+        <p className="exp__date text-base flex items-center md:text-sm">
           <AiOutlineCalendar className="text-lg text-white mr-3" /> {exp.date}
         </p>
-        <p className="exp__location text-base flex items-center mt-1">
+        <p className="exp__location text-base flex items-center mt-1 md:text-sm md:mt-5">
           <GoLocation className="text-lg text-white mr-3" /> {exp.location}
         </p>
       </div>
