@@ -9,8 +9,10 @@ const About = (props: Props) => {
   return (
     <div className={`about ${containerStyle} text-center `} id="about">
       <div className="about__head flex flex-col items-center">
-        <h1 className="text-3xl font-bold my-3">About Me</h1>
-        <p className="text-base my-4 font-medium md:text-lg md:font-normal max-w-[470px]">
+        <h1 className="text-3xl font-bold my-3 ml:text-4xl ml:mb-3">
+          About Me
+        </h1>
+        <p className="text-base my-4 font-medium md:text-lg md:font-normal max-w-[470px] ml:max-w-auto">
           Am a self taught full stack developer. I've been building stuff on the
           web and mobile from 2017 and been able to create accessible, inclusive
           products and digital experiences for friends, startups and clients.

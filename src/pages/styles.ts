@@ -13,13 +13,12 @@ export const navBar =
 
 export const navList = `${transitionStyle} absolute ml:relative body-bg z-[-10] w-full h-max shadow-md shadow-[#000] ml:shadow-none left-0 ml:left-auto ml:translate-y-0`;
 
-export const navItem: string =
-  "nav__item px-2 py-4 md:mr-5 hover:bg-primary font-semibold hover:bg-[#576ee0] cursor-pointer block w-full ml:text-sm";
+export const navItem: string = `${transitionStyle} nav__item px-2 py-4 md:mr-5 font-semibold hover:border-[#576ee0] hover:border-b-2 cursor-pointer block w-full ml:text-sm active:border-[#576ee0] active:border-b-2`;
 
 /* Home */
 
 export const homeImage =
-  "w-[230px] h-[230px]  border overflow-hidden md:order-last rounded-[15px] bg-gradient-radial from-[#333333] via-[#0e0e0e] to-[#0e0e0e]";
+  "w-[230px] h-[230px] ml:w-[260px] ml:h-[260px] border overflow-hidden md:order-last rounded-[15px] bg-gradient-radial from-[#333333] via-[#0e0e0e] to-[#0e0e0e]";
 
 /* Contact */
 

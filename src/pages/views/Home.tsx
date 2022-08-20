@@ -13,7 +13,7 @@ const Home = (props: Props) => {
       className={`home ${containerStyle}  h-screen md:flex justify-center items-center`}
       id="home"
     >
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 justify-items-center">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 justify-items-center ml:px-32">
         <div className={`home__image ${homeImage}`}>
           <img
             src={ProfileImage}
@@ -21,15 +21,15 @@ const Home = (props: Props) => {
             alt="home"
           />
         </div>
-        <div className="home__details text-center flex flex-col items-center">
-          <h1 className="home__title text-3xl font-bold w-[300px] md:w-auto mb-2">
+        <div className="home__details text-center flex flex-col items-center ml:text-left ml:items-start">
+          <h1 className="home__title text-3xl font-bold w-[300px] md:w-auto mb-2 ml:text-4xl">
             Full Stack Web & Mobile Developer
           </h1>
-          <p className="home__description text-[15px] max-w-[350px] md:w-auto my-2 font-semibold">
+          <p className="home__description text-[15px] max-w-[350px] md:max-w-auto ml:text-[18px] my-2 font-semibold">
             I specialize in building softwares for clients. I love learning new
             technologies and always looking to improve my skills.
           </p>
-          <div className="home__icons flex justify-around items-center w-[230px] my-3">
+          <div className="home__icons flex justify-around items-center w-[230px] my-3 ml:justify-between">
             <a href="#link" className="primary-color">
               <FiGithub className="home__icon text-xl" />
             </a>

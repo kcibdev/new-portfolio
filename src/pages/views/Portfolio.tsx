@@ -11,7 +11,7 @@ const Portfolio = (props: Props) => {
       <p className="text-lg text-gray-400 mb-3">
         Here are some of the things i have done
       </p>
-      <div className="portfolio__list flex flex-wrap gap-3 mt-14">
+      <div className="portfolio__list flex flex-wrap gap-3 mt-14 justify-center">
         {portfolios.map((portfolio) => (
           <PortfolioCard key={portfolio.id} portfolio={portfolio} />
         ))}

@@ -8,7 +8,9 @@ type Props = {};
 const Experience = (props: Props) => {
   return (
     <div className={`experience ${containerStyle} text-center`} id="experience">
-      <h1 className="text-3xl font-bold my-3">Experience</h1>
+      <h1 className="text-3xl font-bold my-3 ml:text-4xl ml:mb-3">
+        Experience
+      </h1>
       <div className="exp__card flex flex-col items-center justify-center gap-10 mt-5">
         {experiences.map((experience) => (
           <ExperienceCard key={experience.id} experience={experience} />

@@ -7,7 +7,7 @@ type Props = {
 const SkillsCard = (props: Props) => {
   const { skillCard: skill } = props;
   return (
-    <div className="border-[0.5px] border-dashed py-8 px-6 flex flex-col items-center justify-center max-w-[320px] w-full">
+    <div className="border-[0.5px] border-dashed py-8 px-6 flex flex-col items-center justify-center basis-0 grow container-bg">
       <div className="skill__icon rounded-full w-24 md:w-28 h-24 md:h-28 flex items-center justify-center primary-bg">
         <skill.icon className="text-4xl text-white md:text-5xl" />
       </div>

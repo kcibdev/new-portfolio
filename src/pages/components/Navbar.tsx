@@ -27,8 +27,8 @@ const Navbar = (props: Props) => {
           isOpen ? "translate-y-[13rem]" : "-translate-y-[15rem]"
         }  `}
       >
-        <ul className="flex flex-col ml:flex-row justify-center items-center">
-          <li className="nav__item w-full text-center">
+        <ul className="flex flex-col ml:flex-row justify-center items-center ml:justify-end">
+          <li className="nav__item w-full text-center ml:w-auto px-2">
             <a
               href="#home"
               className={navItem}
@@ -37,7 +37,7 @@ const Navbar = (props: Props) => {
               Home
             </a>
           </li>
-          <li className="nav__item w-full text-center">
+          <li className="nav__item w-full text-center ml:w-auto px-2">
             <a
               href="#about"
               className={navItem}
@@ -46,7 +46,7 @@ const Navbar = (props: Props) => {
               About
             </a>
           </li>
-          <li className="nav__item w-full text-center">
+          <li className="nav__item w-full text-center ml:w-auto px-2">
             <a
               href="#experience"
               className={navItem}
@@ -55,7 +55,7 @@ const Navbar = (props: Props) => {
               Experience
             </a>
           </li>
-          <li className="nav__item w-full text-center">
+          <li className="nav__item w-full text-center ml:w-auto px-2">
             <a
               href="#skills"
               className={navItem}
@@ -64,7 +64,7 @@ const Navbar = (props: Props) => {
               Skills
             </a>
           </li>
-          <li className="nav__item w-full text-center">
+          <li className="nav__item w-full text-center ml:w-auto px-2">
             <a
               href="#portfolio"
               className={navItem}
@@ -73,7 +73,7 @@ const Navbar = (props: Props) => {
               Portfolio
             </a>
           </li>
-          <li className="nav__item w-full text-center">
+          <li className="nav__item w-full text-center ml:w-auto px-2">
             <a
               href="#contact"
               className={navItem}
