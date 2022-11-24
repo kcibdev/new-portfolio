@@ -10,6 +10,9 @@ import {
   Footer,
 } from "./pages/views";
 
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
   return (
     <>
@@ -21,6 +24,7 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
+      <ToastContainer newestOnTop={true} />
     </>
   );
 }

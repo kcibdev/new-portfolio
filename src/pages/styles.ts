@@ -25,4 +25,4 @@ export const homeImage =
 export const formContent = "rounded px-3 py-2 my-5 container-bg";
 export const inputLabel = "text-sm text-gray-600 flex flex-col";
 export const formInput =
-  "w-full container-bg py-2 border-none outline-none mt-2 ";
+  "w-full min-w-[300px] container-bg py-2 border-none outline-none mt-2 text-white";
