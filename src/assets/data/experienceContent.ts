@@ -12,7 +12,7 @@ export const experiences = [
     ],
   },
   {
-    id: 0,
+    id: 1,
     title: "Mobile App Developer",
     company: "FoodNow",
     location: "Ikega Lagos",
@@ -24,7 +24,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     title: "Full Stack Developer",
     company: "Quelib",
     location: "Port Harcourt",
@@ -36,7 +36,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Full Stack Developer",
     company: "Ohms",
     location: "Port Harcourt",
@@ -47,7 +47,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Full Stack Developer",
     company: "Albaama",
     location: "Port Harcourt",

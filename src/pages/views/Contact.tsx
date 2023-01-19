@@ -90,7 +90,7 @@ const Contact = (props: Props) => {
             <div>
               <div className="contact__title text-lg font-bold">Call Me</div>
               <span className="contact__subtitle text-base ">
-                234 701 650 5681
+                <a href="tel:2347016505681">234 701 650 5681</a>
               </span>
             </div>
           </div>
@@ -100,7 +100,7 @@ const Contact = (props: Props) => {
             <div>
               <div className="contact__title text-lg font-bold">Email</div>
               <span className="contact__subtitle text-base ">
-                kcib.mail@gmail.com
+                <a href="mailto:kcib.mail@gmail.com">kcib.mail@gmail.com</a>
               </span>
             </div>
           </div>
