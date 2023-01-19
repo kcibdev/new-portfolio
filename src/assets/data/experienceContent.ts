@@ -2,6 +2,18 @@ export const experiences = [
   {
     id: 0,
     title: "Mobile App Developer",
+    company: "Kreebz",
+    location: "Ikega Lagos",
+    date: "Oct 2022 – Jan 2023",
+    tasks: [
+      "Created a fully functional real estate mobile application.",
+      "Implemented payment wallet into it.",
+      "Collabed and communicated with the backend developer to connect the app to the database using Api.",
+    ],
+  },
+  {
+    id: 0,
+    title: "Mobile App Developer",
     company: "FoodNow",
     location: "Ikega Lagos",
     date: "Nov 2021 – Mar 2022",
