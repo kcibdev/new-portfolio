@@ -29,13 +29,12 @@ const PortfolioCard = (props: Props) => {
         />
       </div>
       <div
-        className={` ${transitionStyle} port__details absolute top-0 left-0 w-full h-full bg-rgba text-center p-4 z-50 flex flex-col items-center justify-center ${
-          isHover ? "opacity-100 visible" : "opacity-0 invisible"
-        }`}
+        className={` ${transitionStyle} port__details absolute top-0 left-0 w-full h-full bg-rgba text-center p-4 z-50 flex flex-col items-center justify-center ${isHover ? "opacity-100 visible" : "opacity-0 invisible"
+          }`}
       >
         {/* <h2 className="port__title text-2xl my-1 font-bold">{port.title}</h2> */}
         <p
-          className="port__desc text-lg lg:text-xl my-2"
+          className="port__desc text-base lg:text-xl my-2"
           dangerouslySetInnerHTML={{ __html: port.desc }}
         ></p>
         {port.isAvailable && (

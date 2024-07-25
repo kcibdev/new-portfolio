@@ -25,18 +25,19 @@ const Home = (props: Props) => {
           <h1 className="home__title text-3xl font-bold w-[300px] md:w-auto mb-2 ml:text-4xl">
             Full Stack Web & Mobile Developer
           </h1>
-          <p className="home__description text-[15px] max-w-[350px] md:max-w-auto ml:text-[18px] my-2 font-semibold">
-            I specialize in building softwares for clients. I love learning new
-            technologies and always looking to improve my skills.
+          <p className="home__description text-[15px] max-w-[500px] md:max-w-auto ml:text-[18px] my-2 font-semibold">
+            Developer with 5+ years of experience from creating, designing and managing web & mobile
+            applications. Proficient with developing database, creating user interfaces, writing and testing code, debugging
+            issues, implementing new features based on user feedback.
           </p>
           <div className="home__icons flex justify-around items-center w-[230px] my-3 ml:justify-between">
-            <a href="#link" className="primary-color">
+            <a href="https://github.com/kcibdev" target="_blank" className="primary-color">
               <FiGithub className="home__icon text-xl" />
             </a>
-            <a href="#link">
+            <a href="https://x.com/kcibdev">
               <FiTwitter className="home__icon text-xl" />
             </a>
-            <a href="#link">
+            <a href="https://www.linkedin.com/in/kcib/">
               <FiLinkedin className="home__icon text-xl" />
             </a>
           </div>

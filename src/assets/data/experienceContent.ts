@@ -2,6 +2,42 @@ export const experiences = [
   {
     id: 0,
     title: "Mobile App Developer",
+    company: "CastleVault",
+    location: "Abuja Nigeria",
+    date: "Sept 2023 – Present",
+    tasks: [
+      "Created a fully functional fintech mobile app using flutter",
+      "Implemented crypto and backend services",
+      "Incorporated different thirdparty services to bring the app to live",
+    ],
+  },
+  {
+    id: 1,
+    title: "Mobile App Developer",
+    company: "VelcroPay",
+    location: "Port Harcourt Nigeria",
+    date: "Aug 2023 – Present",
+    tasks: [
+      "Created a fintech mobile application from scratch using flutter dart",
+      "Implemented backend service using firebase according to clients preferences",
+      "Incorporated thirdparty service eg Gift Card, SME. into the app",
+    ],
+  },
+  {
+    id: 2,
+    title: "Frontend Developer",
+    company: "Candleweb",
+    location: "Abuja Nigeria",
+    date: "Feb 2023 – Aug 2023",
+    tasks: [
+      "Created a web3 crypto website from scratch.",
+      "Worked with a backend developer and UI/UX designer to build the app.",
+      "Add a web3 smart contract functionality to make crypto payment.",
+    ],
+  },
+  {
+    id: 3,
+    title: "Mobile App Developer",
     company: "Kreebz",
     location: "Ikega Lagos",
     date: "Oct 2022 – Jan 2023",
@@ -12,7 +48,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 4,
     title: "Mobile App Developer",
     company: "FoodNow",
     location: "Ikega Lagos",
@@ -24,7 +60,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 5,
     title: "Full Stack Developer",
     company: "Quelib",
     location: "Port Harcourt",
@@ -35,26 +71,26 @@ export const experiences = [
       "Push app to Google play store",
     ],
   },
-  {
-    id: 3,
-    title: "Full Stack Developer",
-    company: "Ohms",
-    location: "Port Harcourt",
-    date: "Nov 2020 – May 2021",
-    tasks: [
-      "Created the wireframe and designed the app using flutter framework ",
-      "Developed the backend using php mysql and connected to the frontend using restful api",
-    ],
-  },
-  {
-    id: 4,
-    title: "Full Stack Developer",
-    company: "Albaama",
-    location: "Port Harcourt",
-    date: "Oct 2019 – Nov 2020",
-    tasks: [
-      "Used HTML CSS to create an e-commerce website with stunning UI and great User experience",
-      "Completely created am admin section with full functional using php mysql",
-    ],
-  },
+  // {
+  //   id: 6,
+  //   title: "Full Stack Developer",
+  //   company: "Ohms",
+  //   location: "Port Harcourt",
+  //   date: "Nov 2020 – May 2021",
+  //   tasks: [
+  //     "Created the wireframe and designed the app using flutter framework ",
+  //     "Developed the backend using php mysql and connected to the frontend using restful api",
+  //   ],
+  // },
+  // {
+  //   id: 7,
+  //   title: "Full Stack Developer",
+  //   company: "Albaama",
+  //   location: "Port Harcourt",
+  //   date: "Oct 2019 – Nov 2020",
+  //   tasks: [
+  //     "Used HTML CSS to create an e-commerce website with stunning UI and great User experience",
+  //     "Completely created am admin section with full functional using php mysql",
+  //   ],
+  // },
 ];

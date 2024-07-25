@@ -13,7 +13,7 @@ const About = (props: Props) => {
         <h1 className="text-3xl font-bold my-3 ml:text-4xl ml:mb-3">
           About Me
         </h1>
-        <p className="text-base my-4 font-medium md:text-lg md:font-normal max-w-[470px] ml:max-w-auto">
+        <p className="text-base my-4 font-medium md:text-lg md:font-normal max-w-[670px] ml:max-w-auto">
           Am a self taught full stack developer. I've been building stuff on the
           web and mobile from 2017 and been able to create accessible, inclusive
           products and digital experiences for friends, startups and clients.

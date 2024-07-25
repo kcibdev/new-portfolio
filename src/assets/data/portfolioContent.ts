@@ -4,6 +4,22 @@ import Metamask from "../images/metamask.png";
 export const portfolios = [
   {
     id: 0,
+    img: "https://play-lh.googleusercontent.com/MHa6MhARl0Oxhm9tduCAmj5QP0vXZMuAMnn0prtHsG4DyIr15yci5MRAjiXarSp3Hi8=w240-h480-rw",
+    title: "Utility payment App",
+    desc: "An utility payment app where users can pay for bills <br /> skills: <b>Flutter, dart, APIs, Laravel, MySql</b>",
+    link: "https://play.google.com/store/apps/details?id=com.easypay.onecustomer",
+    isAvailable: true,
+  },
+  {
+    id: 0,
+    img: "https://play-lh.googleusercontent.com/ygSjRy2hUoTSRGoCf6SSwgG_55ld1MNWFzn4qXQgqZN0RXo2qOzaBpLwa0l3rHEqAUo=w240-h480-rw",
+    title: "Agent Utility App",
+    desc: "An utility payment app where agents can pay for others bills <br /> skills: <b>Flutter, dart, APIs, Laravel, MySql</b>",
+    link: "https://play.google.com/store/apps/details?id=com.easypayapp",
+    isAvailable: true,
+  },
+  {
+    id: 0,
     img: "https://play-lh.googleusercontent.com/7yraXXwHYZhILCctORn3PcTzIIqdARICxXY07hTIF637_lHAqdt3aQpXOPmYTZH76yk=w240-h480-rw",
     title: "Student Social Application",
     desc: "A social app where students are able to post, communicate, upload and download pdfs etc <br /> skills: <b>Flutter, dart, APIs, PHP, MySql, Firebase</b>",
