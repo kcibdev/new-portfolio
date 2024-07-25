@@ -1,6 +1,30 @@
 export const experiences = [
   {
     id: 0,
+    title: "EasyPay Customer App",
+    company: "EasyPay",
+    location: "Port Harcourt Nigeria",
+    date: "Sept 2023 – Present",
+    tasks: [
+      "Worked on a fintech mobile application using flutter dart",
+      "Implemented payment services to easily pay for bills and utilities",
+      "Created card system for easy payments",
+    ],
+  },
+  {
+    id: 1,
+    title: "EasyPay Agent App",
+    company: "EasyPay",
+    location: "Port Harcourt Nigeria",
+    date: "Sept 2023 – Present",
+    tasks: [
+      "Created an agent mobile app for agents to use",
+      "Agents can pay bills for others and receive commission",
+      "Fixed and maintaining the app",
+    ],
+  },
+  {
+    id: 2,
     title: "Mobile App Developer",
     company: "CastleVault",
     location: "Abuja Nigeria",
@@ -12,7 +36,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 3,
     title: "Mobile App Developer",
     company: "VelcroPay",
     location: "Port Harcourt Nigeria",
@@ -24,7 +48,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     title: "Frontend Developer",
     company: "Candleweb",
     location: "Abuja Nigeria",
@@ -36,7 +60,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 5,
     title: "Mobile App Developer",
     company: "Kreebz",
     location: "Ikega Lagos",
@@ -48,7 +72,7 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
+    id: 6,
     title: "Mobile App Developer",
     company: "FoodNow",
     location: "Ikega Lagos",
@@ -60,7 +84,7 @@ export const experiences = [
     ],
   },
   {
-    id: 5,
+    id: 7,
     title: "Full Stack Developer",
     company: "Quelib",
     location: "Port Harcourt",
